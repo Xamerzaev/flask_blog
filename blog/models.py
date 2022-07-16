@@ -22,7 +22,7 @@ class Post(db.Model):
     comments = db.relationship('Comment', backref='post', lazy=True)
 
     def __repr__(self) -> str:
-        return self.title 
+        return self.title
 
 
 class Comment(db.Model):
