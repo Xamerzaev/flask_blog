@@ -1,4 +1,6 @@
 from os.path import join, dirname, realpath
+
+
 class Config():
     SECRET_KEY = 'gfsddxhgsdft325r4q32r5'
     SQLALCHEMY_DATABASE_URI = 'sqlite:///blog.db'
