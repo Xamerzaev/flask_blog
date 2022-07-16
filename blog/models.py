@@ -40,7 +40,7 @@ class Comment(db.Model):
         'posts.id'), nullable=False)  # создаем связь
 
     def __repr__(self) -> str:
-        return self.subject 
+        return self.subject
 
 
 class User(db.Model, UserMixin):
